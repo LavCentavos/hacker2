@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="caralho.css">
+    <title>Hackerfodao</title>
+</head>
+<body>
+  
+<nav>
+<div class="navbar">
+
+<a href="index2.html">ínicio</a>
+<a href="hist.html">História</a>
+<a href="sobre.html">Sobre</a>
+<a href="quiz.html">Quiz</a>
+<a href="video.html">vídeo</a>
+
+</div>
+
+
+</nav>
+
+
+
+
+
+<div class="index">
+  
+<div class="index2">
+
+<h1>Perguntas recorrentes</h1>
+
+   <h2></h2>
+<br>
+<div class="respostas">
+<h2>A Importância da segurança digital na proteção dos dados</h2>
+</div>
+<div onclick="opent()"><p class="botao" id="botao" >▶</p></div>
+
+
+<div class="respcontainer">
+
+<div class="respostas">
+  <h3 id="faq1"></h3>
+</div>
+
+</div>
+
+
+<!-- -----------faq2------------ -->
+
+<div class="respostas">
+<h2>Segurança de Empresas</h2>
+</div>
+<div onclick="opent2()"><p class="botao" id="botao2" >▶</p></div>
+
+
+<div class="respcontainer">
+
+<div class="respostas">
+  <h3 id="faq2"></h3>
+</div>
+
+</div>
+
+<!-- -----------faq3------------ -->
+
+<div class="respostas">
+<h2>Prevenção contra Golpes</h2>
+</div>
+<div onclick="opent3()"><p class="botao" id="botao3" >▶</p></div>
+
+
+<div class="respcontainer">
+
+<div class="respostas">
+  <h3 id="faq3"></h3>
+</div>
+
+</div>
+
+<!-- -----------faq4------------ -->
+
+<div class="respostas">
+<h2>Proteção de Informações Governamentais</h2>
+</div>
+<div onclick="opent4()"><p class="botao" id="botao3" >▶</p></div>
+
+
+<div class="respcontainer">
+
+<div class="respostas">
+  <h3 id="faq4"></h3>
+</div>
+
+</div>
+
+
+
+</div>
+ 
+<h1>TABELAS</h1>
+
+<br>
+
+<table>
+
+<tr>
+
+  
+    <td><div class="negrito">Tipos de hackers</div></td>
+    
+    <td><div class="negrito">Objetivo</div></td>
+ 
+    <td><div class="negrito">Legalidade</div></td>
+
+
+
+</tr>
+
+<tr>
+
+    <td>WhiteRat</td>
+    <td>Melhorar a segurança</td>
+    <td>Legal</td>
+
+</tr>
+
+<tr>
+
+<td>Gray Hat</td>
+<td>Encontrar falhas</td>
+<td>Parcialmente legal</td>
+
+</tr>
+
+<tr>
+
+    <td>Black Hat</td>
+    <td>Obter vantagens e invadir sistemas</td>
+    <td>Ilegal</td>
+
+</tr>
+
+</table>
+
+<table>
+
+<tr>
+
+  
+    <td><div class="negrito">Área</div></td>
+    
+    <td><div class="negrito">Função</div></td>
+
+
+</tr>
+
+<tr>
+
+    <td>Segurança Digital</td>
+    <td>Proteção de sistemas</td>
+    
+
+</tr>
+
+<tr>
+
+<td>Testes de Invasão</td>
+<td>Encontrar vulnerabilidades</td>
+
+
+</tr>
+
+<tr>
+
+    <td>Consultoria</td>
+    <td>Orientar empresas</td>
+
+
+</tr>
+
+<tr>
+
+    <td>Forense Digital</td>
+    <td>Investigar crimes virtuais</td>
+
+
+</tr>
+
+</table>
+
+</div>
+
+
+
+<br><br><br><br><br><br><br>
+<footer id="contato" class="footer">
+  <div class="pe">
+
+
+
+    <div class="pe-secao">
+      <h3>Contato</h3>
+      <p>Email: sousalavinia02@gmail.com</p>
+      <p>Telefone: (47) 9963-1435</p>
+      <p>Endereço: Joinville - SC</p>
+    </div>
+
+    
+    <div class="pe-secao">
+      <h3>Redes Sociais</h3>
+      <a href="https://www.instagram.com/lavinia02/">Instagram</a><br>
+      <a href="https://x.com/LAVINIA95064389">Twitter</a><br>
+      <a href="https://pin.it/8cnO8znMg">Pinterest</a>
+    </div>
+
+  </div>
+
+ 
+</footer>
+
+<script>
+
+
+
+
+function opent() {
+
+
+ if
+ (document.getElementById("faq1").innerHTML == "A segurança digital é essencial para proteger informações pessoais, como senhas, documentos e dados bancários. Hackers podem tentar roubar esses dados por meio de golpes, vírus ou invasões, causando prejuízos financeiros e exposição da privacidade."){
+ document.getElementById("faq1").innerHTML = "";
+ document.getElementById("botao").style.transform="rotate(-90deg)";
+}
+ else {
+  document.getElementById("faq1").innerHTML = "A segurança digital é essencial para proteger informações pessoais, como senhas, documentos e dados bancários. Hackers podem tentar roubar esses dados por meio de golpes, vírus ou invasões, causando prejuízos financeiros e exposição da privacidade.";
+  document.getElementById("botao").style.transform="rotate(90deg)";  
+ }
+
+}
+
+function opent2() {
+
+
+ if
+ (document.getElementById("faq2").innerHTML == "Empresas dependem da segurança digital para proteger informações de clientes, projetos e sistemas internos. Hackers podem invadir redes corporativas para roubar dados confidenciais ou interromper operações, gerando grandes perdas financeiras e de reputação."){
+ document.getElementById("faq2").innerHTML = "";
+ document.getElementById("botao2").style.transform="rotate(-90deg)";
+}
+ else {
+  document.getElementById("faq2").innerHTML = "Empresas dependem da segurança digital para proteger informações de clientes, projetos e sistemas internos. Hackers podem invadir redes corporativas para roubar dados confidenciais ou interromper operações, gerando grandes perdas financeiras e de reputação.";
+  document.getElementById("botao2").style.transform="rotate(90deg)";  
+ }
+
+}
+
+function opent3() {
+
+
+ if
+ (document.getElementById("faq3").innerHTML == "A segurança digital ajuda a identificar e evitar golpes virtuais, como e-mails falsos, links maliciosos e fraudes em redes sociais. Hackers utilizam essas técnicas para enganar pessoas e obter acesso a informações ou dinheiro de forma ilegal."){
+ document.getElementById("faq3").innerHTML = "";
+ document.getElementById("botao3").style.transform="rotate(-90deg)";
+}
+ else {
+  document.getElementById("faq3").innerHTML = "A segurança digital ajuda a identificar e evitar golpes virtuais, como e-mails falsos, links maliciosos e fraudes em redes sociais. Hackers utilizam essas técnicas para enganar pessoas e obter acesso a informações ou dinheiro de forma ilegal.";
+  document.getElementById("botao3").style.transform="rotate(90deg)";  
+ }
+
+}
+
+function opent4() {
+
+
+ if
+ (document.getElementById("faq4").innerHTML == "Governos armazenam dados importantes sobre cidadãos, segurança pública e serviços essenciais. A segurança digital impede que hackers acessem ou manipulem essas informações, protegendo a população e garantindo o funcionamento adequado dos serviços públicos."){
+ document.getElementById("faq4").innerHTML = "";
+ document.getElementById("botao4").style.transform="rotate(-90deg)";
+}
+ else {
+  document.getElementById("faq4").innerHTML = "Governos armazenam dados importantes sobre cidadãos, segurança pública e serviços essenciais. A segurança digital impede que hackers acessem ou manipulem essas informações, protegendo a população e garantindo o funcionamento adequado dos serviços públicos.";
+  document.getElementById("botao4").style.transform="rotate(90deg)";  
+ }
+
+}
+
+
+
+</script>
+        
+        </body>
+        </head>
+</html>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="caralho.css">
+    <title>Hackerfodao</title>
+</head>
+<body>
+  
+<nav>
+<div class="navbar">
+
+<a href="index2.html">ínicio</a>
+<a href="hist.html">História</a>
+<a href="sobre.html">Sobre</a>
+<a href="quiz.html">Quiz</a>
+<a href="video.html">Video</a>
+
+</div>
+
+
+</nav>
+
+<div class="tituloquiz">QUIZ</div>
+
+<div class="caixaquiz">
+
+
+<div class="quiz">
+
+    <div class="question">
+
+        <a>1. O que faz um White Hat?</a>
+        
+     
+        <button onclick="resposta(this.id)"  id="errada">A) Rouba dados de empresas</button>
+        <button onclick="resposta(this.id)" id="errada">B) Invade sistemas para causar danos</button>
+        <button onclick="resposta(this.id)" id="certa">C) Identifica falhas de segurança para corrigi-las</button>
+        <button onclick="resposta(this.id)" id="errada">D) Cria vírus de computador</button>
+        
+
+        <div class="answer" id="resposta">Resposta:</div>
+    </div>
+
+       <div class="question">
+
+        <a>2. O que significa a sigla "VPN"?</a>
+        
+        <button onclick="resposta2(this.id)"  id="certa"> A) Virtual Private Network</button>
+        <button onclick="resposta2(this.id)" id="errada"> B) Very Protected Network</button>
+        <button onclick="resposta2(this.id)" id="errada"> C) Virtual Program Number</button>
+        <button onclick="resposta2(this.id)" id="errada"> D) Verified Personal Node</button>
+        
+
+        <div class="answer" id="resposta2">Resposta:</div>
+    </div>
+
+    <div class="question">
+
+        <a>3. Qual destas senhas é a mais segura?</a>
+        
+        <button onclick="resposta3(this.id)"  id="errada"> A) 123456</button>
+        <button onclick="resposta3(this.id)" id="errada"> B) senha123</button>
+        <button onclick="resposta3(this.id)" id="errada"> C) Luffyfoda2026</button>
+        <button onclick="resposta3(this.id)" id="certa">  D) G7#kP9!zL2@q</button>
+        
+
+        <div class="answer" id="resposta3">Resposta:</div>
+    </div>
+
+    
+    <div class="question">
+
+        <a>4. Phishing é um tipo de ataque que:</a>
+        
+        <button onclick="resposta4(this.id)"  id="errada"> A) Melhora a velocidade da internet</button>
+        <button onclick="resposta4(this.id)" id="certa"> B) Tenta enganar pessoas para roubar informações</button>
+        <button onclick="respost4(this.id)" id="errada"> C) Remove vírus do computador</button>
+        <button onclick="resposta4(this.id)" id="errada">  D) Faz backup de arquivos</button>
+        
+
+        <div class="answer" id="resposta4">Resposta:</div>
+    </div>
+
+    
+    <div class="question">
+
+        <a>5. Qual é uma boa prática de segurança digital?</a>
+        
+        <button onclick="resposta5(this.id)"  id="errada"> A) Compartilhar senhas com amigos</button>
+        <button onclick="resposta5(this.id)" id="errada">  B) Clicar em qualquer link recebido por e-mail</button>
+        <button onclick="resposta5(this.id)" id="certa">  C) Usar autenticação em dois fatores (2FA)</button>
+        <button onclick="resposta5(this.id)" id="errada">   D) Utilizar a mesma senha em todos os sites</button>
+        
+
+        <div class="answer" id="resposta5">Resposta:</div>
+    </div>
+
+</div>
+
+
+</div>
+
+
+
+<br><br><br><br><br><br><br>
+<footer id="contato" class="footer">
+  <div class="pe">
+
+
+
+    <div class="pe-secao">
+      <h3>Contato</h3>
+      <p>Email: sousalavinia02@gmail.com</p>
+      <p>Telefone: (47) 9963-1435</p>
+      <p>Endereço: Joinville - SC</p>
+    </div>
+
+    
+    <div class="pe-secao">
+      <h3>Redes Sociais</h3>
+      <a href="https://www.instagram.com/lavinia02/">Instagram</a><br>
+      <a href="https://x.com/LAVINIA95064389">Twitter</a><br>
+      <a href="https://pin.it/8cnO8znMg">Pinterest</a>
+    </div>
+
+  </div>
+
+ 
+</footer>
+
+<script>
+
+    function resposta (idbotton){
+
+    if (idbotton == "certa") {
+        
+        document.getElementById("resposta").innerHTML="Ta certo"
+        
+    }
+
+    else{
+        
+        document.getElementById("resposta").innerHTML="ta errado"
+    }
+
+}
+
+    // ---------resposta2---------
+
+       function resposta2 (idbotton){
+
+    if (idbotton == "certa") {
+        
+        document.getElementById("resposta2").innerHTML="Ta certo"
+        
+    }
+
+    else{
+        
+        document.getElementById("resposta2").innerHTML="ta errado"
+    }
+
+}
+
+    // ---------resposta3---------
+
+       function resposta3 (idbotton){
+
+    if (idbotton == "certa") {
+        
+        document.getElementById("resposta3").innerHTML="Ta certo"
+        
+    }
+
+    else{
+        
+        document.getElementById("resposta3").innerHTML="ta errado"
+    }
+
+}
+
+ // ---------resposta4---------
+
+       function resposta3 (idbotton){
+
+    if (idbotton == "certa") {
+        
+        document.getElementById("resposta4").innerHTML="Ta certo"
+        
+    }
+
+    else{
+        
+        document.getElementById("resposta4").innerHTML="ta errado"
+    }
+
+}
+
+ // ---------resposta5---------
+
+       function resposta5 (idbotton){
+
+    if (idbotton == "certa") {
+        
+        document.getElementById("resposta5").innerHTML="Ta certo"
+        
+    }
+
+    else{
+        
+        document.getElementById("resposta5").innerHTML="ta errado"
+    }
+
+}
+
+    
+</script>
+        
+        </body>
+        </head>
+</html>
